@@ -1,6 +1,7 @@
 version: '2'
 services:
   mariadb:
+    restart: always
     image: docker.io/bitnami/mariadb:10.6
     environment:
       # ALLOW_EMPTY_PASSWORD is recommended only for development.
@@ -10,6 +11,7 @@ services:
     volumes:
       - './mariadb_data:/bitnami/mariadb'
   phpbb:
+    restart: always
     image: docker.io/bitnami/phpbb:3
     ports:
       - '172.17.0.1:2380:8080'
