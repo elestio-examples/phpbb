@@ -10,7 +10,7 @@ Deploy phpBB server with CI/CD on Elestio
 
 # Once deployed ...
 
-You can can open phpBB UI here:
+You can open phpBB UI here:
 
     URL: https://[CI_CD_DOMAIN]
     login: root
