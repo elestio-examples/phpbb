@@ -18,7 +18,8 @@ environments:
     value: "root"
   - key: "DISCOURSE_PASSWORD"
     value: "random_password"
-
+  - key: "SOFTWARE_VERSION_TAG"
+    value: "3"
 config:
   runTime: "dockerCompose"
   version: ""
