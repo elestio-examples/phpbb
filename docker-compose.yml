@@ -12,7 +12,7 @@ services:
       - './mariadb_data:/bitnami/mariadb'
   phpbb:
     restart: always
-    image: docker.io/bitnami/phpbb:3
+    image: docker.io/bitnami/phpbb:${SOFTWARE_VERSION_TAG}
     ports:
       - '172.17.0.1:2380:8080'
       # - '443:8443'
